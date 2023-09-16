@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FORMS</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <form action="" method="GET">
+    <h1>PERSONAL FORM</h1>
+    <div>
+      <label for="c">FIRST NAME:</label>
+      <input type="text" name="FIRST_NAME" required id="c">
+    </div>
+    <div>
+      <label for="d">SECOND NAME:</label>
+      <input type="text" name="SECOND_NAME" required id="d">
+    </div>
+    <div>
+      <label for="g">AGE:</label>
+      <input type="number" name="AGE" required min="1" max="110" id="g">
+    </div>
+    <div>
+      <label for="date">BIRTHDATE:</label>
+      <input type="date" name="BIRTHDATE" id="date">
+    </div>
+    <div>
+      <label for="v">GENDER:</label>
+      <input type="radio" name="GENDER" value="MALE" id="v">MALE<br>
+      <input type="radio" name="GENDER" value="FEMALE" id="p">FEMALE<br>
+    </div>
+    <label for="email">EMAIL:</label>
+    <input type="email" name="EMAIL" required id="email">
+    <div id="state">
+      <label for="STATE">STATE:</label>
+      <select name="STATE" id="STATE">
+        <option value="ANDHRA PRADESH">ANDHRA PRADESH</option>  
+        <option value="TELANGANA">TELANGANA</option>
+        <option value="TAMIL NADU">TAMIL NADU</option>
+        <option value="KARNATAKA">KARNATAKA</option>
+        <option value="KERALA">KERALA</option>
+        <option value="UTTAR PRADESH">UTTAR PRADESH</option>
+        <option value="MAHARASHTRA">MAHARASHTRA</option>
+        <option value="HARYANA">HARYANA</option>
+      </select>
+    </div>
+
+    <div id="if">
+      <input type="submit" value="SUBMIT">
+      <input type="reset" value="RESET">
+    </div>
+  </form>
+</body>
+</html>

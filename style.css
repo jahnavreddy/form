@@ -1,0 +1,43 @@
+body{
+  background-color: aliceblue;
+  align-items: center;
+  margin-left: 200px;
+  padding: 40px;
+
+}
+
+option{
+  width: 10px;
+  margin: left 40px; ;
+  height: 10px;
+}
+#if{
+  width: 10px;
+  height: 10px;
+  margin-left: 5px;
+
+
+}
+#c{
+  margin-left: 40px;
+}
+#d{
+  margin-left: 20px;
+}
+#g{
+  margin-left: 105px;
+}
+#date{
+  margin-left: 46px;
+}
+#v{
+  align-items: center;
+  margin-left: 67px;
+
+}
+#p{
+  margin-left: 140px;
+}
+#email{
+  margin-left: 80px;
+}
